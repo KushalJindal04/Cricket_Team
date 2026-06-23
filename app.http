@@ -1,0 +1,41 @@
+### API 1 - Get All Players
+GET http://localhost:3000/players/
+Content-Type: application/json
+
+###
+
+### API 2 - Add New Player
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+  "playerName": "Vishal",
+  "jerseyNumber": 17,
+  "role": "Bowler"
+}
+
+###
+
+### API 3 - Get Player by ID
+GET http://localhost:3000/players/1/
+Content-Type: application/json
+
+###
+
+### API 4 - Update Player by ID
+PUT http://localhost:3000/players/1/
+Content-Type: application/json
+
+{
+  "playerName": "Maneesh",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
+
+###
+
+### API 5 - Delete Player by ID
+DELETE http://localhost:3000/players/1/
+Content-Type: application/json
+
+###
